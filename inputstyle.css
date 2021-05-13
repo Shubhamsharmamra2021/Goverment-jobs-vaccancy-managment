@@ -1,0 +1,24 @@
+
+           
+          body{
+               background-color: rgb(209, 233, 209);
+             
+           }
+           h1{
+               text-align: center;
+           }
+           form{
+               align-items: center;
+           }
+
+          input{
+              width: 40%;
+              height: 20%;
+              
+              border:1px;
+              border-radius: 05px;
+         margin: 10px 0px 15px 15px;
+         box-shadow: 1px 1px 2px 2px black;
+         text-align: center;
+         font-size: 20px;
+          }

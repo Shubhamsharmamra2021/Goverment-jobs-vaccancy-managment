@@ -1,0 +1,111 @@
+ /* #1- Desktops */
+
+ @media (min-width: 980px)  { 
+    section{  
+      width: 100%;
+       display: flex;
+     }  
+
+}
+
+/* #2- Portrait tablet to landscape and netbooks */
+@media (min-width: 768px) and (max-width: 979px) {
+   section{   width: 100%;
+       padding: 0px;
+         width: 100%;
+          
+       }
+          
+       section aside{
+           float:none;
+           display: flexbox;
+       }  
+       .addimage aside{
+           float: none;
+       }
+       footer{
+           display: grid;
+           
+           
+       } 
+       
+       footer div{
+           width: 100%;
+           padding-top: 30px;
+           
+       }
+        
+       .addimage img{
+           padding: 10px;
+       }
+ }
+
+/* #3- Landscape phone to portrait tablet */
+@media (max-width: 767px) { 
+    header image{
+        position: absolute;
+        
+        
+    } 
+    .navbar-toggler{display:none}
+ 
+   footer{
+       display: grid;
+       text-align: center;
+       
+   }
+   .addimage img{
+       padding: 10px;
+       width: 97%;
+   }
+   nav{
+       padding-top: 30px;
+       text-align: center;
+       display: inline-table;
+       
+   }
+   nav label{
+        
+       align-items: center;
+   }
+   nav li {
+       background-color: rgb(167, 18, 63);
+       padding-top: 14px;
+       display: grid;
+        
+   }
+   
+    
+     .logo1{
+       font-size: 50px;
+   }
+   header label{
+       font-size: 32px;
+   }
+   section {
+       padding-left: 1px;
+        
+   }
+   section div{
+    flex: 90%;
+
+
+
+
+   }
+   footer div{
+       width: 100%;
+       padding-top: 30px;
+       
+   }
+   section aside{
+       float: none;
+       display: inline-block;
+   }  
+   .addimage aside{
+       float: none;
+   }
+}
+
+/* #4- Landscape phones and down */
+@media (max-width: 480px) {  }

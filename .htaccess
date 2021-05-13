@@ -1,0 +1,2 @@
+RewriteEngine On
+RewriteRule ^([^/\.]+)/?$ latestjob.php?Title=$1

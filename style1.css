@@ -1,0 +1,170 @@
+*{
+  margin: 0px;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+ 
+} 
+table, td, th {
+    border: 2px solid rgb(15, 3, 19);
+  }
+  
+  table {
+    background-color: rgb(236, 231, 217);
+      margin: 120px;
+    border-collapse: collapse;
+    width: 66%;
+    font-weight: 300;
+    color: rgb(2, 32, 77);
+    
+  }
+  .tr1 .th1 
+  {  
+       text-align: center;
+       height: 30px;
+       width:  25%;
+ }
+  
+  thead tr th {
+        color: rgb(235, 45, 45);
+     }
+     thead tr td{
+        text-align: left;
+        height: 30px;
+        width:  75%;      
+        padding: 25px;
+     }
+  thead tr th h1{
+      color: rgb(245, 42, 167);
+     }   
+  thead tr th h2{
+      color: rgb(1, 126, 43);
+     }
+  tbody tr th {
+     
+    color: rgb(1, 134, 46);
+    }
+ .tra1 .tha1 {  
+      text-align: center;
+      height: 30px;
+       
+      color: rgb(175, 14, 135);
+  }
+  .tra1 .tda1:hover,
+  .tra1 .tda1:active {
+              background-color: aqua;
+  }
+ 
+
+  .tr2 {
+   font-size: 23px;
+    }
+        
+  tr th{
+   font-size: 25px;
+        padding: 10PX;
+    }
+  tr td{
+   font-size: 18px;
+   padding: 10px;
+   }
+   .td7 {
+       padding: 30px;
+      padding-left: 150px;
+     }
+    
+   
+  .tr3 td li {
+    padding: 5px;
+     }
+   
+   .tr4 td{
+   padding: 45px;
+  }
+  .youtube-video{
+        
+    width: 98%;
+    height: 20%;
+    border: 0px solid rgb(221, 142, 38);
+    padding: 20px;
+    margin: 20px;
+    text-align: start;
+    display: inline-flex;
+     justify-content: space-evenly;
+     flex-wrap:wrap;
+     align-items: center;
+     float:right;
+}
+.youtube-video div iframe{
+   padding: 10px;
+}
+  .youtube-video h1{
+    font-style:italic;
+    color: rgb(245, 183, 49);
+    font-weight: 900;
+  }   
+  
+section{width: 75%;
+    padding-left: 30px;
+    flex-wrap: wrap;
+    float: left;
+    }
+ section div 
+{
+ 
+ border: 5px solid  #016301;
+ 
+ margin-top: 30px;
+ margin-left: 4px;
+ text-align:  left;
+
+ font-size: 20px;   
+}
+section div h1 {
+    background-color: rgb(16, 163, 65);
+    text-align: center ;
+    font-size: 38px;
+}
+section div ul{
+    
+    padding: 20px;
+    padding-left: 50px;
+     
+
+}
+section div ul li {
+    font-size: 23px;
+    padding: 6px;
+     
+}
+section div ul li a{
+    color: rgb(38, 70, 214);
+}
+section div ul li a:hover {
+    color: deeppink;
+    text-decoration: underline;
+}
+section div ul li a:visited{
+    text-decoration: underline;
+}
+         
+  
+    /* #1- Desktops */
+
+ @media (min-width: 980px)  { 
+  
+}
+
+/* #2- Portrait tablet to landscape and netbooks */
+@media (min-width: 768px) and (max-width: 979px) {
+   
+    
+ }
+
+/* #3- Landscape phone to portrait tablet */
+@media (max-width: 767px) {  
+    
+      
+}
+/* #4- Landscape phones and down */
+@media (max-width: 480px) {  }
